@@ -24,6 +24,7 @@
     <ProjectGuid>{3b82572f-771a-4940-9f29-085ce24c0e78}</ProjectGuid>
     <RootNamespace>VulkanTest</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>VTwelveEngine</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

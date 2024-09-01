@@ -7,10 +7,13 @@
 namespace vtwelve {
 
 class vtwelveWindow{
-	
+
 	public:
 		vtwelveWindow(int w, int h, std::string name);
 		~vtwelveWindow();
+
+		vtwelveWindow(const vtwelveWindow &) = delete;
+		vtwelveWindow& operator=(const vtwelveWindow &) = delete;
 
 		bool shouldClose() { return glfwWindowShouldClose(window); }
 	private:
